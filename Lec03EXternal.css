@@ -1,0 +1,24 @@
+#heading{
+    color:rgb(22, 16, 110);
+}
+
+body {
+    background-color: rgb(128, 200, 255);
+}
+p {
+    color: rgb(5, 5, 5);
+}
+
+.highlight {
+    background-color: rgb(0, 247, 255);
+    color:black
+}
+
+ div {      /*Decendent - Selector */
+    .high {
+        color: rgb(121, 84, 84);
+    }
+    
+    padding: 10px;
+    margin: 10px 0;
+}
