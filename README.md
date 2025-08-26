@@ -9,12 +9,11 @@ This repo contains foundational web development exercises including HTML and CSS
 - Internal and external CSS
 - Git and GitHub workflow
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 | File Name               | Description                                  |
-|------------------------|----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | `Lec01.html`           | Basic HTML layout with headings and paragraphs |
 | `Lec01.css`            | CSS file for `Lec01.html`                    |
 | `Lec01Quiz.html`       | A quiz-based layout using HTML               |
@@ -24,8 +23,9 @@ This repo contains foundational web development exercises including HTML and CSS
 | `Lec03Job.css`         | External CSS for styling the job form        |
 | `Lec03EXternal.html`   | HTML file demonstrating external CSS         |
 | `Lec03EXternal.css`    | Associated CSS for styling                   |
+| `Lec04.css`            | Writing Blog                                 |
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -34,9 +34,8 @@ This repo contains foundational web development exercises including HTML and CSS
 - **VS Code**
 - **Git & GitHub**
 
----
 
-## 🚀 Getting Started
+## Getting Started
 
 To view these files locally:
 
