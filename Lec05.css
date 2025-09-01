@@ -1,60 +1,68 @@
-       body{
-        margin: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 10px;
-       } 
-       /* header{
-        margin-left: 250px;
-        margin-right: 20px;
-        background-color: rgb(0, 0, 0);
-        color: white;
-        text-align: center;
-        padding: 50px;
-        border-style: dotted;
-       } */
-        header{
-            margin-left: 250px;
-            margin-right: 20px;
-            background-image: url('https://c4.wallpaperflare.com/wallpaper/132/777/256/vacation-costa-adeje-gran-hotel-best-hotels-of-2017-resort-wallpaper-preview.jpg');
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+} 
+/* header{
+ margin-left: 250px;
+ margin-right: 20px;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ text-align: center;
+ padding: 50px;
+ border-style: dotted;
+} */
+header{
+    margin-left: 250px;
+    margin-right: 20px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/132/777/256/vacation-costa-adeje-gran-hotel-best-hotels-of-2017-resort-wallpaper-preview.jpg');
             background-size: cover;
-            min-height: 00px;
-            background-position: center;
-            color: white;
-            text-align: center;
-            padding: 50px;
-        }
-       .Specials {
-        margin-left: 250px;
-        margin-right: 10px;
-       }
-       .NavBar {
-        width: 200px;
-        background-color: rgb(0, 195, 255);
-        color: white;
-        height: 100vh;
-        padding: 15px;
-        position: fixed;
-        top: 0;
-        left: 0;
-       }
-       .NavBar a {
-        display: block;
-        color: white;
-        padding: 10px;
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s; 
-       }
-       .NavBar a:hover {
-        background-color: rgb(50, 81, 94);
-        color: rgb(0, 195, 255);
-        border-radius: 5px;
-       }
-       .box{
-        margin-left: 3px;
-        margin-right: 20px;
-        background-color: rgb(4, 89, 92);
-        color: white;
-        text-align: left;
-        padding: 50px;
-       }
-             
+    min-height: 00px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px;
+}
+.mainBox {
+    display: grid;
+    grid-row: 3;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+.NavBar {
+    width: 200px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    height: 100vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.NavBar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+}
+.NavBar a:hover {
+    background-color: rgb(50, 81, 94);
+    color: rgb(0, 195, 255);
+    border-radius: 5px;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 20px;
+    background-color: rgb(4, 89, 92);
+    color: white;
+    text-align: left;
+    padding: 50px;
+    width: 200px;
+    height: 300px;
+    min-height: fit-content;
+    border-radius: 15px;           
+}
+           
